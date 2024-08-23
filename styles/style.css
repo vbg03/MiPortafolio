@@ -88,15 +88,6 @@ nav.barrita ul li a {
   position: relative;
 }
 
-table {
-  width: 100%;
-}
-
-th,
-td {
-  color: #ffffff;
-}
-
 .header-content {
   display: flex;
 }
@@ -160,6 +151,8 @@ p {
 .information {
   width: 70%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  margin: 30px auto;
   padding: 25px 75px;
   margin-top: -75px;
   background-color: #ffffff;
@@ -169,15 +162,25 @@ p {
   text-align: center;
   display: flex;
   justify-content: space-between;
+  gap: 60px;
 }
 
-.information-1 img {
-  width: 35px;
+.texto {
+  text-align: left;
+}
+
+h3 {
+  font-size: 17px;
+  color: #181713;
+  text-transform: capitalize;
 }
 
 .products {
   padding: 0 0 100px 0;
+  width: 80%;
   text-align: center;
+  max-width: 2000px;
+  margin: 30px auto;
 }
 
 .products h2{
@@ -188,7 +191,7 @@ p {
 }
 
 .product-content {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(4, 1fr);
   gap: 50px;
 }
