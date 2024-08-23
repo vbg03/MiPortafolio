@@ -69,6 +69,10 @@ nav.barrita ul li a {
   font-weight: bold;
 }
 
+.icono{
+  width: 20px;
+}
+
 #menu {
   display: none;
 }
