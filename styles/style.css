@@ -190,7 +190,7 @@ h3 {
   text-transform: capitalize;
 }
 
-.products {
+.proyectos {
   padding: 0 0 100px 0;
   width: 80%;
   text-align: center;
@@ -198,30 +198,30 @@ h3 {
   margin: 30px auto;
 }
 
-.products h2{
+.proyectos h2{
   font-size: 40px;
   color: #181713;
   text-transform: capitalize;
   margin-bottom: 55px;
 }
 
-.product-content {
+.proyecto-content {
   display: flex;
   grid-template-columns: repeat(4, 1fr);
   gap: 50px;
 }
 
-.product{
+.proyecto{
   text-align: center;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   padding: 35px;
 }
 
-.product h3 {
+.proyecto h3 {
   color: #e38dce;
 }
 
-.product p {
+.proyecto p {
   font-size: 15px;
   margin: 0;
   color: #181713;
